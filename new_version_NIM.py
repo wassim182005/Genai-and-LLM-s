@@ -5,7 +5,7 @@ def generate_response(prompt): # Function to generate response from NVIDIA's LLM
     stream = False # Set to True if you want to receive the response in chunks (streaming)
     
     headers = { # HTTP headers for the request
-        "Authorization": "Bearer api key here", # Your NVIDIA API key
+        "Authorization": "Bearer  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", # Your NVIDIA API key
         "Accept": "text/event-stream" if stream else "application/json" # Accept header based on streaming preference
     }
     
@@ -83,3 +83,5 @@ print(response_text) # Print the generated response
 # requests.post(url)     # Send information  
 # requests.put(url)      # Update information
 # requests.delete(url)   # Delete information
+
+# A database is an organized collection of structured data stored electronically, designed for efficient retrieval, management, and updating of information.
