@@ -1,0 +1,21 @@
+important notes :
+
+TensorRT/TRT-LLM = The main engine that optimizes AI models
+
+cuBLAS/cuDNN = Math libraries that make calculations lightning-fast
+
+In-Flight Batching = Processes multiple requests together like a carpool lane
+
+Memory Optimization = Uses GPU memory more efficiently
+
+FP8 Quantization = Compresses model size so it runs faster with less power
+
+cuDF = Fast data processing (like supercharged Excel/Pandas for GPUs)
+
+CV-CUDA = GPU-accelerated image/video processing
+
+DALI = Fast data loading (gets data ready for the AI)
+
+NCCL = Super-fast communication between multiple GPUs
+
+Postprocessing Decoder = Converts AI outputs into usable formats
